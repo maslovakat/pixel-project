@@ -109,6 +109,10 @@ main video{
     border-radius: 5px;
     font-size: 1em;
 }
+.buy-button:hover{
+    background-color: #e1f26e;
+    color: #333333;
+}
 footer{
     display: flex;
     justify-content: center;
@@ -173,11 +177,3 @@ footer .fa{
         padding: 7% 0;
     }
 }
-
-
-
-
-
-
-
-
