@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e6e4305-a5c1-4334-b8e6-d6918200fe13" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/download.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/download.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -14,30 +18,52 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="750">
-              <caret line="57" column="32" lean-forward="true" selection-start-line="57" selection-start-column="32" selection-end-line="57" selection-end-column="32" />
+            <state relative-caret-position="195">
+              <caret line="69" column="26" selection-start-line="69" selection-start-column="20" selection-end-line="69" selection-end-column="45" />
+              <folding>
+                <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#section#2;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#section#3;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#section#4;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <marker date="1563879938428" expanded="true" signature="850:3264" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/buy-pixel-stand.html">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="36" column="58" selection-start-line="36" selection-start-column="58" selection-end-line="36" selection-end-column="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/buy-pixel-3.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="780">
-              <caret line="52" column="8" selection-start-line="52" selection-start-column="8" selection-end-line="55" selection-end-column="58" />
+            <state relative-caret-position="371">
+              <caret line="159" column="25" selection-start-line="159" selection-start-column="25" selection-end-line="159" selection-end-column="25" />
+              <folding>
+                <element signature="e#92#100#0" />
+                <element signature="e#149#157#0" />
+                <element signature="e#303#311#0" />
+                <element signature="e#335#356#0" />
+                <element signature="e#786#794#0" />
+                <element signature="e#905#913#0" />
+                <element signature="e#953#961#0" />
+                <element signature="e#1073#1081#0" />
+                <element signature="e#1073#1081#0" />
+                <element signature="e#1289#1327#0" />
+                <element signature="e#1449#1457#0" />
+                <element signature="e#1372#1411#0" />
+                <element signature="e#1604#1612#0" />
+                <element signature="e#1873#2005#0" />
+                <element signature="e#2087#2095#0" />
+                <element signature="e#2439#2447#0" />
+                <element signature="e#2568#2576#0" />
+                <element signature="e#2517#2602#0" />
+                <element signature="e#2627#2750#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -48,6 +74,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -60,12 +87,16 @@
         <option value="$PROJECT_DIR$/buy-pixel-3.html" />
         <option value="$PROJECT_DIR$/buy-pixel-stand.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/index.css" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="width" value="2048" />
+    <option name="width" value="444" />
     <option name="height" value="1152" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -79,6 +110,11 @@
               <item name="pixel-proj" type="b2602c69:ProjectViewProjectNode" />
               <item name="pixel-proj" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="pixel-proj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pixel-proj" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -91,6 +127,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -113,6 +150,16 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/pixel-proj/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -124,6 +171,8 @@
       <option name="presentableId" value="Default" />
       <updated>1563785011552</updated>
       <workItem from="1563785012681" duration="1498000" />
+      <workItem from="1563799279078" duration="173000" />
+      <workItem from="1563867129360" duration="12693000" />
     </task>
     <task id="LOCAL-00001" summary="save index.html">
       <created>1563785372749</created>
@@ -160,30 +209,37 @@
       <option name="project" value="LOCAL" />
       <updated>1563786306553</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="correct buttons &quot;buy it&quot;">
+      <created>1563799352939</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1563799352939</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1498000" />
+    <option name="totallyTimeSpent" value="14364000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="2048" height="1152" extended-state="0" />
+    <frame x="0" y="0" width="1347" height="1152" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12333498" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09653092" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" sideWeight="0.49975333" weight="0.32994455" />
-      <window_info anchor="bottom" id="Terminal" sideWeight="0.49975333" visible="true" weight="0.027726432" />
-      <window_info anchor="bottom" id="Event Log" sideWeight="0.50024664" side_tool="true" weight="0.32994455" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32994455" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49975333" weight="0.32994455" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49975333" weight="0.027726432" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50024664" side_tool="true" weight="0.32994455" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -217,26 +273,34 @@
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="save index.html" />
     <MESSAGE value="push all project" />
     <MESSAGE value="add links on footer" />
     <MESSAGE value="add right links on footer" />
-    <option name="LAST_COMMIT_MESSAGE" value="add right links on footer" />
+    <MESSAGE value="correct buttons &quot;buy it&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="correct buttons &quot;buy it&quot;" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../pixel-project/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="70" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/buy-pixel-3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="52" column="8" selection-start-line="52" selection-start-column="8" selection-end-line="55" selection-end-column="58" />
         </state>
       </provider>
     </entry>
@@ -247,10 +311,62 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/buy-pixel-3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="52" column="8" selection-start-line="52" selection-start-column="8" selection-end-line="55" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ANIOZ/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="65" column="19" lean-forward="true" selection-start-line="65" selection-start-column="19" selection-end-line="68" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="57" column="32" lean-forward="true" selection-start-line="57" selection-start-column="32" selection-end-line="57" selection-end-column="32" />
+        <state relative-caret-position="195">
+          <caret line="69" column="26" selection-start-line="69" selection-start-column="20" selection-end-line="69" selection-end-column="45" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#2;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#3;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#4;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <marker date="1563879938428" expanded="true" signature="850:3264" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="159" column="25" selection-start-line="159" selection-start-column="25" selection-end-line="159" selection-end-column="25" />
+          <folding>
+            <element signature="e#92#100#0" />
+            <element signature="e#149#157#0" />
+            <element signature="e#303#311#0" />
+            <element signature="e#335#356#0" />
+            <element signature="e#786#794#0" />
+            <element signature="e#905#913#0" />
+            <element signature="e#953#961#0" />
+            <element signature="e#1073#1081#0" />
+            <element signature="e#1073#1081#0" />
+            <element signature="e#1289#1327#0" />
+            <element signature="e#1449#1457#0" />
+            <element signature="e#1372#1411#0" />
+            <element signature="e#1604#1612#0" />
+            <element signature="e#1873#2005#0" />
+            <element signature="e#2087#2095#0" />
+            <element signature="e#2439#2447#0" />
+            <element signature="e#2568#2576#0" />
+            <element signature="e#2517#2602#0" />
+            <element signature="e#2627#2750#0" />
+          </folding>
         </state>
       </provider>
     </entry>
