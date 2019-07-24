@@ -114,6 +114,9 @@ footer{
 footer .fa{
     margin: 0 5px;
 }
+footer .fa:hover{
+    color: #9aab56;
+}
 /*MOBILE STYLES START HERE*/
 @media screen and (max-width: 780px){
     .burger-icon{

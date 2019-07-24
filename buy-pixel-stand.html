@@ -2,31 +2,37 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Google Pixel Stand</title>
     <link rel="shortcut icon" href="img/favicon.png" type="image/png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/buy-pixel-stand.css">
 </head>
 <body>
     <header>
+        <input class="burger-icon" type="checkbox">
+        <span class="checkmark"></span>
+        <span class="checkmark"></span>
+        <span class="checkmark"></span>
         <nav>
-            <a href="index.html" class="navigation-logo"></a>
+            <a href="index.html" class="navigation-logo"><img src="img/navigation-logo.png" alt="logo of google"></a>
             <a href="index.html">Home</a>
             <a href="buy-pixel-3.html">Pixel 3</a>
             <a href="buy-pixel-stand.html">Pixel Stand</a>
         </nav>
     </header>
     <main>
-        <div><img src="img/pixel-stand-for-buy.jpg" alt="pixel stand with pixel 3"></div>
-        <section>
+        <div class="img-under-header"><img src="img/pixel-stand-for-buy.jpg" alt="pixel stand with pixel 3"></div>
+        <section class="section-with-form">
+            <h1>Price 79.99$</h1>
             <form method="POST" action="https://formspree.io/maslova.ekaterina94@gmail.com">
-                <h1>Price 79.99$</h1>
                 <label>Full Name: <input name="full-name" type="text" placeholder="Name"></label>
                 <label>Telephone: <input name="user-tel" type="tel" placeholder="Telephone"></label>
                 <label>E-mail: <input name="user-email" type="email" placeholder="Email Address"></label>
                 <label>Comment:
                     <textarea name="user-comment" cols="30" rows="10"></textarea>
                 </label>
-                <input type="submit" value="Send">
+                <input class="send-button" type="submit" value="Send">
             </form>
         </section>
     </main>
