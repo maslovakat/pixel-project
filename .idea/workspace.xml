@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e6e4305-a5c1-4334-b8e6-d6918200fe13" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/download.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/download.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -19,30 +16,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="69" column="26" selection-start-line="69" selection-start-column="20" selection-end-line="69" selection-end-column="45" />
+            <state relative-caret-position="375">
+              <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
               <folding>
-                <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#main#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#section#2;n#main#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#section#3;n#main#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#section#4;n#main#0;n#body#0;n#html#0;n#!!top" />
-                <marker date="1563879938428" expanded="true" signature="850:3264" ph="..." />
+                <marker date="1563952543278" expanded="true" signature="923:3367" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
-              <caret line="159" column="25" selection-start-line="159" selection-start-column="25" selection-end-line="159" selection-end-column="25" />
+            <state relative-caret-position="470">
+              <caret line="120" column="1" lean-forward="true" selection-start-line="120" selection-start-column="1" selection-end-line="120" selection-end-column="1" />
               <folding>
                 <element signature="e#92#100#0" />
                 <element signature="e#149#157#0" />
@@ -58,7 +53,6 @@
                 <element signature="e#1372#1411#0" />
                 <element signature="e#1604#1612#0" />
                 <element signature="e#1873#2005#0" />
-                <element signature="e#2087#2095#0" />
                 <element signature="e#2439#2447#0" />
                 <element signature="e#2568#2576#0" />
                 <element signature="e#2517#2602#0" />
@@ -86,8 +80,8 @@
       <list>
         <option value="$PROJECT_DIR$/buy-pixel-3.html" />
         <option value="$PROJECT_DIR$/buy-pixel-stand.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/index.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -114,6 +108,11 @@
               <item name="pixel-proj" type="b2602c69:ProjectViewProjectNode" />
               <item name="pixel-proj" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pixel-proj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pixel-proj" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -172,7 +171,7 @@
       <updated>1563785011552</updated>
       <workItem from="1563785012681" duration="1498000" />
       <workItem from="1563799279078" duration="173000" />
-      <workItem from="1563867129360" duration="12693000" />
+      <workItem from="1563867129360" duration="14199000" />
     </task>
     <task id="LOCAL-00001" summary="save index.html">
       <created>1563785372749</created>
@@ -216,17 +215,38 @@
       <option name="project" value="LOCAL" />
       <updated>1563799352939</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="full index.css">
+      <created>1563881612566</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1563881612566</updated>
+    </task>
+    <task id="LOCAL-00008" summary="full index.css">
+      <created>1563881706024</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1563881706024</updated>
+    </task>
+    <task id="LOCAL-00009" summary="hover button in index.html">
+      <created>1563882146639</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1563882146639</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14364000" />
+    <option name="totallyTimeSpent" value="15870000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1347" height="1152" extended-state="6" />
+    <frame x="0" y="0" width="946" height="1152" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09653092" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19027027" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -294,7 +314,9 @@
     <MESSAGE value="add links on footer" />
     <MESSAGE value="add right links on footer" />
     <MESSAGE value="correct buttons &quot;buy it&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="correct buttons &quot;buy it&quot;" />
+    <MESSAGE value="full index.css" />
+    <MESSAGE value="hover button in index.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="hover button in index.html" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../pixel-project/index.html">
@@ -320,32 +342,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../ANIOZ/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="65" column="19" lean-forward="true" selection-start-line="65" selection-start-column="19" selection-end-line="68" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="69" column="26" selection-start-line="69" selection-start-column="20" selection-end-line="69" selection-end-column="45" />
-          <folding>
-            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#2;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#3;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#4;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <marker date="1563879938428" expanded="true" signature="850:3264" ph="..." />
-          </folding>
+        <state relative-caret-position="76">
+          <caret line="91" column="7" selection-start-line="91" selection-start-column="7" selection-end-line="91" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="159" column="25" selection-start-line="159" selection-start-column="25" selection-end-line="159" selection-end-column="25" />
+        <state relative-caret-position="470">
+          <caret line="120" column="1" lean-forward="true" selection-start-line="120" selection-start-column="1" selection-end-line="120" selection-end-column="1" />
           <folding>
             <element signature="e#92#100#0" />
             <element signature="e#149#157#0" />
@@ -361,11 +366,25 @@
             <element signature="e#1372#1411#0" />
             <element signature="e#1604#1612#0" />
             <element signature="e#1873#2005#0" />
-            <element signature="e#2087#2095#0" />
             <element signature="e#2439#2447#0" />
             <element signature="e#2568#2576#0" />
             <element signature="e#2517#2602#0" />
             <element signature="e#2627#2750#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+          <folding>
+            <element signature="n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#2;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#3;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#4;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <marker date="1563952543278" expanded="true" signature="923:3367" ph="..." />
           </folding>
         </state>
       </provider>
