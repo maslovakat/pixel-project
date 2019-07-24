@@ -12,6 +12,19 @@ a{
     text-decoration: none;
     color: #606060;
 }
+input, select{
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    border: 1px solid #e6e6e6;
+    height: 25px;
+}
+textarea{
+    border: 1px solid #e6e6e6;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
 /*HEADER STARTS HERE*/
 header nav{
     min-height: 100px;
@@ -53,65 +66,41 @@ header input{
     display: none;
 }
 /*MAIN CONTENT STARTS HERE*/
-main video{
+.img-under-header img{
     width: 100%;
     height: auto;
 }
-.students-sale-section{
-    padding: 7% 10%;
-    display: flex;
-    flex-direction: column;
+.section-with-form h1{
     text-align: center;
+    margin: 25px;
 }
-.google-photo-section, .power-up-section{
-    min-height: 300px;
-    display: grid;
-    grid-template-columns: 0.8fr 1.2fr;
-}
-.google-photo-section>div:first-of-type, .keep-data-section>div:last-of-type, .power-up-section>div:first-of-type, .choose-color-section>div:last-of-type{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    width: 80%;
+.section-with-form form {
+    width: 50%;
     margin: 0 auto;
-}
-.google-photo-section>div:first-of-type img{
-    margin: 0 auto;
-    width: 100px;
-    height: auto;
-}
-.google-photo-section>div:first-of-type h4, .keep-data-section>div:last-of-type h3, .power-up-section>div:first-of-type h3, .choose-color-section>div:last-of-type h3{
-    margin: 10px 0;
-}
-.google-photo-section>div:last-of-type img, .keep-data-section>div:first-of-type img, .power-up-section>div:last-of-type img, .choose-color-section>div:first-of-type img{
-    width: 100%;
-    height: auto;
-}
-.keep-data-section{
-    background-color: black;
-    color: white;
-    min-height: 300px;
     display: grid;
-    grid-template-columns: 1.4fr 0.6fr;
+    grid-template-columns: 1fr;
 }
-.choose-color-section{
-    min-height: 300px;
+.section-with-form form > *{
     display: grid;
-    grid-template-columns: 1.2fr 0.8fr;
+    grid-template-columns: 1fr 1fr;
+    margin: 5px 0;
 }
-.buy-button{
-    width: 40%;
+.section-with-form form .send-button{
+    grid-template-columns: 1fr;
+    height: 40px;
+    line-height: 20px;
+    width: 150px;
     padding: 10px 0;
-    margin: 5% auto;
+    margin: 10% auto;
     background-color: #e6e6e6;
     border: 2px solid #e1f26e;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
     font-size: 1em;
+    cursor: pointer;
 }
-.buy-button:hover{
+.section-with-form form .send-button:hover{
     background-color: #e1f26e;
     color: #333333;
 }
@@ -171,12 +160,7 @@ footer .fa{
     nav a::after{
         display: none;
     }
-    .google-photo-section, .keep-data-section, .power-up-section, .choose-color-section{
-        grid-template-columns: 1fr;
-    }
-    .google-photo-section>div:first-of-type, .keep-data-section>div:last-of-type, .power-up-section>div:first-of-type, .choose-color-section>div:last-of-type  {
-        width: 60%;
-        margin: 0 auto;
-        padding: 7% 0;
+    .section-with-form form {
+        width: 80%;
     }
 }
