@@ -57,8 +57,9 @@ function login(e) {
     },
     body: JSON.stringify({
       name: document.querySelector(".client-form input[name=full-name]").value,
-      telephone: document.querySelector(".client-form input[name=user-tel]")
-        .value
+      telephone: document.querySelector(".client-form input[name=user-tel]").value,
+      email: document.querySelector(".client-form input[name=user-email]").value,
+      comment: document.querySelector(".client-form input[name=user-comment]").value
     })
   }).then(_ => document.querySelector(".client-form").reset());
 }
