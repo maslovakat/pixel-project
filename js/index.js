@@ -1,3 +1,28 @@
+
+//отправка данных с формы с помощью ajax
+
+
+document
+  .querySelector(".client-form input[type=submit]")
+  .addEventListener("click", login);
+
+function login(e) {
+  e.preventDefault();
+  fetch("login", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json"
+      // 'Content-Type': 'application/x-www-form-urlencoded',
+    },
+    body: JSON.stringify({
+      name: document.querySelector(".client-form input[name=full-name]").value,
+      telephone: document.querySelector(".client-form input[name=user-tel]").value,
+      email: document.querySelector(".client-form input[name=user-email]").value,
+      comment: document.querySelector(".user-comment").value
+    })
+  }).then(_ => document.querySelector(".client-form").reset());
+}
+
 //запись в localstorage и reset введенных данных
 
 const name = document.querySelector(".full-name");
@@ -41,25 +66,3 @@ function saveData(e) {
   //   console.log(stringInformation);
 }
 
-//отправка данных с формы с помощью ajax
-
-document
-  .querySelector(".client-form input[type=submit]")
-  .addEventListener("click", login);
-
-function login(e) {
-  e.preventDefault();
-  fetch("login", {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json"
-      // 'Content-Type': 'application/x-www-form-urlencoded',
-    },
-    body: JSON.stringify({
-      name: document.querySelector(".client-form input[name=full-name]").value,
-      telephone: document.querySelector(".client-form input[name=user-tel]").value,
-      email: document.querySelector(".client-form input[name=user-email]").value,
-      comment: document.querySelector(".client-form input[name=user-comment]").value
-    })
-  }).then(_ => document.querySelector(".client-form").reset());
-}
