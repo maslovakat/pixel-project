@@ -30,53 +30,35 @@ function saveData(e) {
     comment.value = "";
   })();
 
-//   const userInformation = localStorage;
-//   const stringInformation = JSON.stringify(userInformation);
-//   const xhr = new XMLHttpRequest();
+  //   const userInformation = localStorage;
+  //   const stringInformation = JSON.stringify(userInformation);
+  //   const xhr = new XMLHttpRequest();
 
-//   xhr.open("POST", "client-data.json", true);
-//   xhr.setRequestHeader("Content-Type", "application/json");
-//   xhr.send();
+  //   xhr.open("POST", "client-data.json", true);
+  //   xhr.setRequestHeader("Content-Type", "application/json");
+  //   xhr.send();
 
-//   console.log(stringInformation);
+  //   console.log(stringInformation);
 }
 
 //отправка данных с формы с помощью ajax
 
-document.querySelector('.client-form input[type=submit]')
-    .addEventListener('click', login);
+document
+  .querySelector(".client-form input[type=submit]")
+  .addEventListener("click", login);
 
 function login(e) {
-    e.preventDefault();
-    fetch('../client-data.json', {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json',
-            // 'Content-Type': 'application/x-www-form-urlencoded',
-        },
-        body: JSON.stringify({
-            name: document.querySelector('.client-form input[name=full-name]').value,
-            telephone: document.querySelector('.client-form input[name=user-tel]').value
-        })
+  e.preventDefault();
+  fetch("login", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json"
+      // 'Content-Type': 'application/x-www-form-urlencoded',
+    },
+    body: JSON.stringify({
+      name: document.querySelector(".client-form input[name=full-name]").value,
+      telephone: document.querySelector(".client-form input[name=user-tel]")
+        .value
     })
-        .then( _ => document.querySelector('.client-form').reset());
+  }).then(_ => document.querySelector(".client-form").reset());
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
