@@ -24,7 +24,7 @@
     <main>
         <div class="img-under-header"><img src="img/pixel-stand-for-buy.jpg" alt="pixel stand with pixel 3"></div>
         <section class="section-with-form">
-            <h1>Price 79.99$</h1>
+            <h1>Price <span class="curr-amount">79.99</span> <span class="curr-from">USD</span></h1>
             <form method="POST" class="client-form">
                 <label>Full Name: <input name="full-name" class="full-name" type="text" placeholder="Name"></label>
                 <label>Telephone: <input name="user-tel" class="user-tel" type="tel" placeholder="Telephone"></label>
@@ -33,6 +33,16 @@
                     <textarea name="user-comment" class="user-comment" cols="30" rows="10"></textarea>
                 </label>
                 <input class="send-button" type="submit" value="Send">
+                <label>
+                    Convert To:
+                    <select name="curr-to" class="curr-to" required>
+                        <option value="RUB">RUB</option>
+                        <option value="UAH">UAH</option>
+                        <option value="EUR">EUR</option>
+                    </select>
+                </label>
+                <input class="convert" type="submit" value="Convert">
+                <div class="curr-converted"></div>
             </form>
         </section>
     </main>

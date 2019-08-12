@@ -2,7 +2,7 @@
 //отправка данных с формы с помощью ajax
 
 document
-  .querySelector(".client-form input[type=submit]")
+  .querySelector(".send-button")
   .addEventListener("click", login);
 
 function login(e) {
@@ -15,10 +15,10 @@ function login(e) {
     },
     body: JSON.stringify({
       model: 'pixel stand',
-      name: document.querySelector(".client-form input[name=full-name]").value,
-      telephone: document.querySelector(".client-form input[name=user-tel]")
+      name: document.querySelector(".full-name").value,
+      telephone: document.querySelector(".user-tel")
         .value,
-      email: document.querySelector(".client-form input[name=user-email]")
+      email: document.querySelector(".user-email")
         .value,
       comment: document.querySelector(".user-comment").value
     })
@@ -58,4 +58,27 @@ function saveData(e) {
     email.value = "";
     comment.value = "";
   })();
+}
+
+// currency convert
+
+document
+    .querySelector('.convert')
+    .addEventListener('click', currConvert);
+
+function currConvert(e) {
+    e.preventDefault();
+    const currFrom = document.querySelector('.curr-from').textContent;
+    const currTo = document.querySelector('.curr-to').value;
+    const currKey = currFrom + '_' + currTo;
+
+    fetch(`https://free.currconv.com/api/v7/convert?q=${currKey}&compact=ultra&apiKey=8120039e1d66bfa43c62`)
+        .then( response => response.json() )
+        .then( currency => {
+           const rate = currency[currKey];
+           const sourceAmount = document.querySelector('.curr-amount').textContent;
+           const convertedAmount = rate * sourceAmount;
+           document.querySelector('.curr-converted')
+            .innerText = convertedAmount.toFixed(2);
+        });
 }

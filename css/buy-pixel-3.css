@@ -85,7 +85,7 @@ header input{
     grid-template-columns: 1fr 1fr;
     margin: 5px 0;
 }
-.section-with-form form .send-button{
+.section-with-form form .send-button, .section-with-form form .convert{
     grid-template-columns: 1fr;
     height: 40px;
     line-height: 20px;
@@ -100,7 +100,7 @@ header input{
     font-size: 1em;
     cursor: pointer;
 }
-.section-with-form form .send-button:hover{
+.section-with-form form .send-button:hover, .section-with-form form .convert:hover{
     background-color: #e1f26e;
     color: #333333;
 }
@@ -166,4 +166,7 @@ footer .fa:hover{
     .section-with-form form {
         width: 80%;
     }
+}
+html body form .curr{
+    display: inline-block;
 }

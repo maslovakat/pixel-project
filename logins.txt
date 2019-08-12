@@ -16,3 +16,7 @@
 {"model":"pisel stand","name":"333333","telephone":"","email":"","comment":""}
 {"model":"pixel stand","name":"44444444","telephone":"","email":"","comment":""}
 {"name":"555555555","telephone":"","email":"","model":"Google Pixel 3","memory":"64 GB","color":"Not Pink","comment":""}
+{"model":"pixel stand","name":"121212121212","telephone":"","email":"","comment":""}
+{"name":"","telephone":"","email":"","model":"GooglePixel3","memory":"64GB","color":"NotPink","comment":""}
+{"name":"","telephone":"","email":"","model":"GooglePixel3","memory":"64GB","color":"NotPink","comment":""}
+{"name":"","telephone":"","email":"","model":"GooglePixel3","memory":"64GB","color":"NotPink","comment":""}

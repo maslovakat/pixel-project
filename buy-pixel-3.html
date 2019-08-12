@@ -24,34 +24,44 @@
     <main>
         <div class="img-under-header"><img src="img/pixel-3-for-buy.jpg" alt="pixel 3 and box"></div>
         <section class="section-with-form">
-            <h1>Price $</h1>
+            <h1>Price <span class="curr-amount"></span> <span class="curr-from">USD</span></h1>
             <form method="POST" class="client-form">
                 <label>Full Name: <input name="full-name" class="full-name" type="text" placeholder="Name" required></label>
                 <label>Telephone: <input name="user-tel" class="user-tel" type="tel" placeholder="Telephone" required></label>
                 <label>E-mail: <input name="user-email" class="user-email" type="email" placeholder="Email Address" required></label>
                 <label>Model Family:
                     <select name="model-family" class="model-family" required>
-                        <option value="Google Pixel 3">Google Pixel 3</option>
-                        <option value="Google Pixel 3 Xl">Google Pixel 3 XL</option>
+                        <option value="GooglePixel3">Google Pixel 3</option>
+                        <option value="GooglePixel3Xl">Google Pixel 3 XL</option>
                     </select>
                 </label>
                 <label>Internal Memory:
                     <select name="internal-memory" class="internal-memory" required>
-                        <option value="64 GB">64 GB</option>
-                        <option value="128 GB">128 GB</option>
+                        <option value="64GB">64 GB</option>
+                        <option value="128GB">128 GB</option>
                     </select>
                 </label>
                 <label>Color:
-                    <select name="color" class="color" required>
-                        <option value="Not Pink">Not Pink</option>
-                        <option value="Just Black">Just Black</option>
-                        <option value="Clearly White">Clearly White</option>
+                    <select name="color" class="color"  required>
+                        <option value="NotPink">Not Pink</option>
+                        <option value="JustBlack">Just Black</option>
+                        <option value="ClearlyWhite">Clearly White</option>
                     </select>
                 </label>
                 <label>Comment:
                     <textarea name="user-comment" class="user-comment" cols="30" rows="10"></textarea>
                 </label>
                 <input class="send-button" type="submit" value="Send">
+                <label>
+                    Convert To:
+                    <select name="curr-to" class="curr-to" required>
+                        <option value="RUB">RUB</option>
+                        <option value="UAH">UAH</option>
+                        <option value="EUR">EUR</option>
+                    </select>
+                </label>
+                <h1 class="curr"><span class="curr-converted"></span> <span class="convertded-to"></span></h1>
+                <input class="convert" type="submit" value="Convert">
             </form>
         </section>
     </main>
