@@ -167,3 +167,6 @@ footer .fa:hover{
         width: 80%;
     }
 }
+html body form .curr{
+    display: inline-block;
+}

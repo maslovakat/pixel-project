@@ -80,5 +80,7 @@ function currConvert(e) {
            const convertedAmount = rate * sourceAmount;
            document.querySelector('.curr-converted')
             .innerText = convertedAmount.toFixed(2);
+            document.querySelector('.convertded-to')
+            .innerText = currTo;
         });
 }
