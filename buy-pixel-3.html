@@ -25,24 +25,24 @@
         <div class="img-under-header"><img src="img/pixel-3-for-buy.jpg" alt="pixel 3 and box"></div>
         <section class="section-with-form">
             <h1>Price $</h1>
-            <form method="POST" action="https://formspree.io/maslova.ekaterina94@gmail.com">
+            <form method="POST" class="client-form">
                 <label>Full Name: <input name="full-name" type="text" placeholder="Name" required></label>
                 <label>Telephone: <input name="user-tel" type="tel" placeholder="Telephone" required></label>
                 <label>E-mail: <input name="user-email" type="email" placeholder="Email Address" required></label>
                 <label>Model Family:
-                    <select name="model-family" required>
+                    <select name="model-family" class="model-family" required>
                         <option value="Google Pixel 3">Google Pixel 3</option>
                         <option value="Google Pixel 3 Xl">Google Pixel 3 XL</option>
                     </select>
                 </label>
                 <label>Internal Memory:
-                    <select name="internal-memory" required>
+                    <select name="internal-memory" class="internal-memory" required>
                         <option value="64 GB">64 GB</option>
                         <option value="128 GB">128 GB</option>
                     </select>
                 </label>
                 <label>Color:
-                    <select name="color" required>
+                    <select name="color" class="color" required>
                         <option value="Not Pink">Not Pink</option>
                         <option value="Just Black">Just Black</option>
                         <option value="Clearly White">Clearly White</option>
@@ -61,5 +61,6 @@
         <a href="#"><i class="fa fa-facebook-square"></i></a>
         <a href="#"><i class="fa fa-youtube-play"></i></a>
     </footer>
+    <script src="js/index.js"></script>
 </body>
 </html>
