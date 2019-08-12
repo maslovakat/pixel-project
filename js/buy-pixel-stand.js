@@ -1,12 +1,4 @@
 
-const name = document.querySelector(".full-name");
-const telephone = document.querySelector(".user-tel");
-const email = document.querySelector(".user-email");
-const model = document.querySelector("model-family");
-const memory = document.querySelector(".internal-memory");
-const color = document.querySelector(".color");
-const comment = document.querySelector(".user-comment");
-
 //отправка данных с формы с помощью ajax
 
 document
@@ -22,15 +14,12 @@ function login(e) {
       // 'Content-Type': 'application/x-www-form-urlencoded',
     },
     body: JSON.stringify({
+      model: 'pixel stand',
       name: document.querySelector(".client-form input[name=full-name]").value,
       telephone: document.querySelector(".client-form input[name=user-tel]")
         .value,
       email: document.querySelector(".client-form input[name=user-email]")
         .value,
-      comment: document.querySelector(".user-comment").value,
-      model: document.querySelector(".model-family").value,
-      memory: document.querySelector(".internal-memory").value,
-      color: document.querySelector(".color").value,
       comment: document.querySelector(".user-comment").value
     })
   }).then(_ => document.querySelector(".client-form").reset());
@@ -38,12 +27,18 @@ function login(e) {
 
 //запись в localstorage и reset введенных данных
 
-(function upload() {
-  name.value = localStorage["name"];
-  telephone.value = localStorage["telephone"];
-  email.value = localStorage["email"];
-  comment.value = localStorage["comment"];
-})();
+const name = document.querySelector(".full-name");
+const telephone = document.querySelector(".user-tel");
+const email = document.querySelector(".user-email");
+const comment = document.querySelector(".user-comment");
+const model = 'pixel stand';
+
+// (function upload() {
+//   name.value = localStorage["name"];
+//   telephone.value = localStorage["telephone"];
+//   email.value = localStorage["email"];
+//   comment.value = localStorage["comment"];
+// })();
 
 document
   .querySelector(".client-form input[type=submit]")
@@ -51,6 +46,7 @@ document
 
 function saveData(e) {
   e.preventDefault();
+  localStorage["model"] = model;
   localStorage["name"] = name.value;
   localStorage["telephone"] = telephone.value;
   localStorage["email"] = email.value;
