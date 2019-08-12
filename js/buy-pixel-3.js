@@ -47,7 +47,6 @@ function changePrice(){
 }
 changePrice();
 
-
 //отправка данных с формы с помощью ajax
 
 document
