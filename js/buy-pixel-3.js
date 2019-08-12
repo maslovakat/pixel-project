@@ -12,7 +12,7 @@ const price = document.querySelector('.curr-amount');
 
 color.addEventListener('change', changePrice);
 memory.addEventListener('change', changePrice);
-memory.addEventListener('change', changePrice);
+model.addEventListener('change', changePrice);
 
 
 function changePrice(){
