@@ -1,0 +1,64 @@
+
+{
+    "pink64GBPixel3" : {
+        "model": "GooglePixel3", 
+        "memory": "64GB",
+        "color": "NotPink"
+    },
+    "white64GBPixel3" : {
+        "model": "GooglePixel3", 
+        "memory": "64GB",
+        "color": "ClearlyWhite"
+    },
+    "black64GBPixel3" : {
+        "model": "GooglePixel3", 
+        "memory": "64GB",
+        "color": "JustBlack"
+    },
+    "pink128GBPixel3" : {
+        "model": "GooglePixel3", 
+        "memory": "128GB",
+        "color": "NotPink"
+    },
+    "white128GBPixel3" : {
+        "model": "GooglePixel3", 
+        "memory": "128GB",
+        "color": "ClearlyWhite"
+    },
+    "black128GBPixel3" : {
+        "model": "GooglePixel3", 
+        "memory": "128GB",
+        "color": "JustBlack"
+    },
+    "pink64GBPixel3xl" : {
+        "model": "GooglePixel3", 
+        "memory": "64GB",
+        "color": "NotPink"
+    },
+    "white64GBPixel3xl" : {
+        "model": "GooglePixel3", 
+        "memory": "64GB",
+        "color": "ClearlyWhite"
+    },
+    "black64GBPixel3xl" : {
+        "model": "GooglePixel3", 
+        "memory": "64GB",
+        "color": "JustBlack"
+    },
+    "pink128GBPixel3xl" : {
+        "model": "GooglePixel3", 
+        "memory": "128GB",
+        "color": "NotPink"
+    },
+    "white128GBPixel3xl" : {
+        "model": "GooglePixel3", 
+        "memory": "128GB",
+        "color": "ClearlyWhite"
+    },
+    "black128GBPixel3xl" : {
+        "model": "GooglePixel3", 
+        "memory": "128GB",
+        "color": "JustBlack"
+    }
+}
+

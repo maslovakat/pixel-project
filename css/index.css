@@ -7,34 +7,20 @@ body{
     margin: 0 auto;
     color: #606060;
     font-size: 1.1rem;
+    text-align: center;
 }
-a{
+a, a:visited, a:hover, a:active{
     text-decoration: none;
     color: #606060;
 }
 /*HEADER STARTS HERE*/
-header nav{
-    min-height: 100px;
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-header nav a:not(:first-of-type){
-    width: 100%;
-    text-align: center;
-}
-.navigation-logo{
-    height: 100%;
-    width: 100%;
-}
 header img{
     height: 100px;
 }
-nav a:not(:first-child):hover::after{
+.navbar .navbar-collapse a:hover::after{
     width: 50px;
 }
-nav a::after{
+.navbar .navbar-collapse a::after{
     content: '';
     height: 2px;
     width: 0;
@@ -49,8 +35,13 @@ nav a::after{
     left: 50%;
     top: 5px;
 }
-header input{
-    display: none;
+.navbar .navbar-collapse .navbar-nav{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.bg-light{
+    background-color: #fff!important;
 }
 /*MAIN CONTENT STARTS HERE*/
 main video{
@@ -129,50 +120,9 @@ footer .fa:hover{
     color: #9aab56;
 }
 /*MOBILE STYLES START HERE*/
-@media screen and (max-width: 780px){
-    .burger-icon{
+@media screen and (max-width: 992px){
+    .navbar .navbar-collapse .navbar-nav{
         display: block;
-        position: absolute;
-        top: 20px;
-        right: 20px;
-        opacity: 0;
-        cursor: pointer;
-        height: 40px;
-        width: 40px;
-        z-index: 2;
-        background-color: green;
-    }
-    header span{
-        position: absolute;
-        right: 30px;
-        height: 2px;
-        width: 25px;
-        background-color: #606060;
-    }
-    header span:first-of-type{
-        top: 30px;
-    }
-    header span:nth-of-type(2){
-        top: 40px;
-    }
-    header span:last-of-type{
-        top: 50px;
-    }
-    header nav{
-        display: flex;
-        flex-direction: column;
-    }
-    nav a:not(:first-of-type){
-        display: none;
-    }
-    .burger-icon:checked ~ nav a:not(:first-of-type){
-        width: 100%;
-        line-height: 50px;
-        display: flex;
-        justify-content: center;
-    }
-    nav a::after{
-        display: none;
     }
     .google-photo-section, .keep-data-section, .power-up-section, .choose-color-section{
         grid-template-columns: 1fr;
