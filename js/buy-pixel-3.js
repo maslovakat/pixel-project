@@ -14,36 +14,20 @@ color.addEventListener('change', changePrice);
 memory.addEventListener('change', changePrice);
 model.addEventListener('change', changePrice);
 
-
 function changePrice(){
-    if(model.value === 'GooglePixel3' && memory.value === '64GB' && color.value === 'NotPink'){
-        price.innerText = 998;
-    }else if(model.value === 'GooglePixel3' && memory.value === '64GB' && color.value === 'ClearlyWhite'){
-        price.innerText = 479;
-    }else if(model.value === 'GooglePixel3' && memory.value === '64GB' && color.value === 'JustBlack'){
-        price.innerText = 299;
+  const xmlhttp = new XMLHttpRequest();
+  xmlhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      const myObj = JSON.parse(this.responseText);
+      for(let i = 0; i < myObj.length; i++){
+        if(myObj[i].model === model.value && myObj[i].memory === memory.value && myObj[i].color === color.value){
+          price.innerText = myObj[i].price;
+        }
+      }
     }
-    if(model.value === 'GooglePixel3' && memory.value === '128GB' && color.value === 'NotPink'){
-        price.innerText = 1400;
-    }else if(model.value === 'GooglePixel3' && memory.value === '128GB' && color.value === 'ClearlyWhite'){
-        price.innerText = 1255;
-    }else if(model.value === 'GooglePixel3' && memory.value === '128GB' && color.value === 'JustBlack'){
-        price.innerText = 1055;
-    }
-    if(model.value === 'GooglePixel3Xl' && memory.value === '64GB' && color.value === 'NotPink'){
-        price.innerText = 1198;
-    }else if(model.value === 'GooglePixel3Xl' && memory.value === '64GB' && color.value === 'ClearlyWhite'){
-        price.innerText = 679;
-    }else if(model.value === 'GooglePixel3Xl' && memory.value === '64GB' && color.value === 'JustBlack'){
-        price.innerText = 499;
-    }
-    if(model.value === 'GooglePixel3Xl' && memory.value === '128GB' && color.value === 'NotPink'){
-        price.innerText = 1600;
-    }else if(model.value === 'GooglePixel3Xl' && memory.value === '128GB' && color.value === 'ClearlyWhite'){
-        price.innerText = 1455;
-    }else if(model.value === 'GooglePixel3Xl' && memory.value === '128GB' && color.value === 'JustBlack'){
-        price.innerText = 1255;
-    }
+  };
+  xmlhttp.open("GET", "cart.json", true);
+  xmlhttp.send();
 }
 changePrice();
 

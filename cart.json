@@ -1,64 +1,76 @@
 
-{
-    "pink64GBPixel3" : {
+[
+    {
         "model": "GooglePixel3", 
         "memory": "64GB",
-        "color": "NotPink"
+        "color": "NotPink",
+        "price": 998
     },
-    "white64GBPixel3" : {
+    {
         "model": "GooglePixel3", 
         "memory": "64GB",
-        "color": "ClearlyWhite"
+        "color": "ClearlyWhite",
+        "price": 479
     },
-    "black64GBPixel3" : {
+    {
         "model": "GooglePixel3", 
         "memory": "64GB",
-        "color": "JustBlack"
+        "color": "JustBlack",
+        "price": 299
     },
-    "pink128GBPixel3" : {
+    {
         "model": "GooglePixel3", 
         "memory": "128GB",
-        "color": "NotPink"
+        "color": "NotPink",
+        "price": 1400
     },
-    "white128GBPixel3" : {
+    {
         "model": "GooglePixel3", 
         "memory": "128GB",
-        "color": "ClearlyWhite"
+        "color": "ClearlyWhite",
+        "price": 1255
     },
-    "black128GBPixel3" : {
+    {
         "model": "GooglePixel3", 
         "memory": "128GB",
-        "color": "JustBlack"
+        "color": "JustBlack",
+        "price": 1055
     },
-    "pink64GBPixel3xl" : {
-        "model": "GooglePixel3", 
+    {
+        "model": "GooglePixel3Xl", 
         "memory": "64GB",
-        "color": "NotPink"
+        "color": "NotPink",
+        "price": 1198
     },
-    "white64GBPixel3xl" : {
-        "model": "GooglePixel3", 
+    {
+        "model": "GooglePixel3Xl", 
         "memory": "64GB",
-        "color": "ClearlyWhite"
+        "color": "ClearlyWhite",
+        "price": 679
     },
-    "black64GBPixel3xl" : {
-        "model": "GooglePixel3", 
+    {
+        "model": "GooglePixel3Xl", 
         "memory": "64GB",
-        "color": "JustBlack"
+        "color": "JustBlack",
+        "price": 499
     },
-    "pink128GBPixel3xl" : {
-        "model": "GooglePixel3", 
+    {
+        "model": "GooglePixel3Xl", 
         "memory": "128GB",
-        "color": "NotPink"
+        "color": "NotPink",
+        "price": 1600
     },
-    "white128GBPixel3xl" : {
-        "model": "GooglePixel3", 
+    {
+        "model": "GooglePixel3Xl", 
         "memory": "128GB",
-        "color": "ClearlyWhite"
+        "color": "ClearlyWhite",
+        "price": 1455
     },
-    "black128GBPixel3xl" : {
-        "model": "GooglePixel3", 
+    {
+        "model": "GooglePixel3Xl", 
         "memory": "128GB",
-        "color": "JustBlack"
+        "color": "JustBlack",
+        "price": 1255
     }
-}
+]
 
