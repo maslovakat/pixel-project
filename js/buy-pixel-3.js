@@ -1,5 +1,6 @@
-//count price of phone
+(function(){
 
+//count price of phone
 
 const name = document.querySelector(".full-name");
 const telephone = document.querySelector(".user-tel");
@@ -15,19 +16,20 @@ memory.addEventListener('change', changePrice);
 model.addEventListener('change', changePrice);
 
 function changePrice(){
-  const xmlhttp = new XMLHttpRequest();
-  xmlhttp.onreadystatechange = function() {
-    if (this.readyState == 4 && this.status == 200) {
-      const myObj = JSON.parse(this.responseText);
-      for(let i = 0; i < myObj.length; i++){
-        if(myObj[i].model === model.value && myObj[i].memory === memory.value && myObj[i].color === color.value){
-          price.innerText = myObj[i].price;
+  fetch('./cart.json')
+    .then(response => {
+      return response.json()
+    })
+    .then(data => {
+      for(let i = 0; i < data.length; i++){
+        if(data[i].model === model.value && data[i].memory === memory.value && data[i].color === color.value){
+          price.innerText = data[i].price;
         }
       }
-    }
-  };
-  xmlhttp.open("GET", "cart.json", true);
-  xmlhttp.send();
+    })
+    .catch(err => {
+      // Do something for an error here
+    })
 }
 changePrice();
 
@@ -85,15 +87,13 @@ function saveData(e) {
   localStorage["color"] = color.value;
   localStorage["comment"] = comment.value;
 
-  (function() {
-    name.value = "";
-    telephone.value = "";
-    email.value = "";
-    model.value = "";
-    memory.value = "";
-    color.value = "";
-    comment.value = "";
-  })();
+  name.value = "";
+  telephone.value = "";
+  email.value = "";
+  model.value = "";
+  memory.value = "";
+  color.value = "";
+  comment.value = "";
 }
 
 // currency convert
@@ -121,4 +121,4 @@ function currConvert(e) {
 
         });
 }
-
+})();
